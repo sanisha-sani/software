@@ -1,5 +1,15 @@
 from django.shortcuts import render
 
 # Create your views here.
-def admin(request):
-    return render(request,'admin/base_admin.html')
+
+#***********************developer***********************************************
+def developer_Dashboard(request):
+    return render(request,'developer\developer_Dashboard.html')
+
+
+
+#******************  Manager ******************************************
+
+def manager_Dashboard(request):
+    return render(request,'manager\manager_Dashboard.html')
+
