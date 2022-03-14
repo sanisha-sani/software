@@ -4,8 +4,8 @@ from django.shortcuts import render
 
 
 #***********************developer***********************************************
-def developer_Dashboard(request):
-    return render(request,'developer\developer_Dashboard.html')
+def index(request):
+    return render(request,'index.html')
 
 
 
@@ -16,3 +16,4 @@ def manager_Dashboard(request):
 
 
 
+    
