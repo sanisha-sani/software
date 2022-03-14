@@ -12,7 +12,4 @@ def developer_Dashboard(request):
 
 def manager_Dashboard(request):
     return render(request,'manager\manager_Dashboard.html')
-
-def manager_Dashboard(request):
-    return render(request,'manager\manager_Dashboard.html')
-
+    
